@@ -14,9 +14,9 @@ public class Inicio
 		int suma = 1;
 		 
         System.out.println("Escriba un numero para la secuencia: ");
-        
         int secuencia = sc.nextInt();
-        for (int i = 0; i < secuencia; i++) 
+        
+        for (int i = 1; i <= secuencia; i++) 
         {
              
             System.out.println(suma);
@@ -30,4 +30,4 @@ public class Inicio
 
 	    }
    }
-}
+} 
