@@ -16,7 +16,7 @@ public class Inicio
         System.out.println("Escriba un numero para la secuencia: ");
         
         int secuencia = sc.nextInt();
-        for (int i = 1; i < secuencia; i++) 
+        for (int i = 0; i < secuencia; i++) 
         {
              
             System.out.println(suma);
